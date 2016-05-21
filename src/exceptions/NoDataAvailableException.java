@@ -1,0 +1,66 @@
+/**
+ * 
+ */
+package exceptions;
+
+/**
+ * @author Micensky
+ *
+ */
+@SuppressWarnings("serial")
+public class NoDataAvailableException extends Exception {
+
+	public static String message="Sorry! No data available to process the request";
+	/**
+	 * 
+	 */
+	public NoDataAvailableException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param arg0
+	 */
+	public NoDataAvailableException(String arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param arg0
+	 */
+	public NoDataAvailableException(Throwable arg0) {
+		super(arg0);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param arg0
+	 * @param arg1
+	 */
+	public NoDataAvailableException(String arg0, Throwable arg1) {
+		super(arg0, arg1);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param arg0
+	 * @param arg1
+	 * @param arg2
+	 * @param arg3
+	 */
+	public NoDataAvailableException(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
+		super(arg0, arg1, arg2, arg3);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the message
+	 */
+	public String getMessage() {
+		return message;
+	}
+	
+	
+
+}
