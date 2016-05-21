@@ -1,7 +1,8 @@
 cafea:25:2016-05-22:Monthly
 mici:10:2016-05-20:Weekly
 bere:5:2016-05-20:Daily
-pui:-20:2016-05-20:Daily
-mere:-3:2016-05-20:Daily
+pui:20:2016-05-20:Daily
+mere:3:2016-05-20:Daily
 blugi:100:2016-05-21:Daily
 blugi:100:2016-05-21:Daily
+tuica:5:2016-05-02:Daily
